@@ -32,8 +32,8 @@ const kennan =
   gender: 'M',  
   id: 2,
   email: 'kdiben1@tinypic.com',
-  speak: function(name) {
-    console.log(`Hello, my name is ${this.name}`);
+  speak: function() {
+   return `Hello, my name is ${this.name}`;
   }
 };
 
@@ -83,7 +83,7 @@ console.log(antonietta.gender);
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 
-kennan.speak('kennan'); 
+kennan.speak(); 
 // function is in the the oject
 
 
